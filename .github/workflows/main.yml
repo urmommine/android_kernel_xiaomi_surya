@@ -19,6 +19,7 @@ jobs:
       id: build
       env:
         NAME: Loganysl
+        CROSS_COMPILE_COMPAT: /usr/bin/arm-linux-gnueabi- # Tambahkan ini
       with:
         arch: arm64
         compiler: gcc/12
